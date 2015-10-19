@@ -24,7 +24,7 @@ var addGraffiti = function(data) {
         var description = "";
         
         if (typeof(data[i].media_url) == "undefined"){
-            media_url = "/../../images/maps/graffiti_default.png";
+            media_url = "images/maps/graffiti_default.png";
         } else {
             media_url = data[i].media_url;
         }
