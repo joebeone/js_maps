@@ -43,7 +43,7 @@ var addGraffiti = function(data) {
     graffiti_heat_layer.addTo(map);  
 }
 var loadData = function(callback) {
-    $.getJSON('/../data/graffiti_request.json', function(data) {
+    $.getJSON('../../data/graffiti_request.json', function(data) {
         callback(data);
     })
 }
