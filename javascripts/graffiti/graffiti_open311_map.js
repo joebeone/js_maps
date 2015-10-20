@@ -1,9 +1,8 @@
 /**
  * Created with maps.
- * User: joebeone
+ * User: Joe Bennett
  * Date: 2014-12-05
  * Time: 04:11 AM
- * To change this template use Tools | Templates.
  */
 // Data orgin: http://grcity.spotreporters.com/open311/v2/requests.json?service_code=4e81abbf21ecf34d2600001a&status=closed&start_date=2010-01-01T00:00:00Z&end_date=2015-01-01T00:00:00Z
 var map = L.map('map', {
